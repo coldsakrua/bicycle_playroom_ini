@@ -748,7 +748,7 @@ async function main() {
         // location.href,
         params.get("url") || "bicycle-playroom_ini.splat",
         // "https://huggingface.co/cakewalk/splat-data/resolve/main/",
-        "https://coldsakrua.github.io/bicycle_playroom_hide/bicycle-playroom_ini.splat",
+        "https://coldsakrua.github.io/bicycle_playroom_ini/bicycle-playroom_ini.splat",
     );
     const req = await fetch(url, {
         mode: "cors", // no-cors, *cors, same-origin
