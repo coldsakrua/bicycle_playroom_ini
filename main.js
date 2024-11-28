@@ -746,7 +746,7 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "bicycle-playroom_ini.splat",
+        params.get("url") || "bicycle-playroom_ini.splat", 
         // "https://huggingface.co/cakewalk/splat-data/resolve/main/",
         "https://coldsakrua.github.io/bicycle_playroom_ini/bicycle-playroom_ini.splat",
     );
